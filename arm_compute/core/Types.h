@@ -1415,7 +1415,6 @@ public:
                                                                                         _h(mha_info.h())
     {
     }
-    
 
     /* Get Model dimesion */
     unsigned int d_model() const
