@@ -1469,7 +1469,7 @@ public:
     }
 
     /* Get linear attention operation */
-    LinearAttentionOperation op()
+    LinearAttentionOperation op() const
     {
         return _op;
     }
@@ -1506,7 +1506,7 @@ public:
     }
 
     /** Get epsilon */
-    float epsilon() const
+    float epsilon()
     {
         return  _epsilon;
     }
