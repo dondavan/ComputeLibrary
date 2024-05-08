@@ -1469,7 +1469,7 @@ public:
     }
 
     /* Get linear attention operation */
-    LinearAttentionOperation op() const
+    LinearAttentionOperation op()
     {
         return _op;
     }
